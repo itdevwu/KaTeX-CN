@@ -2,7 +2,7 @@
 
 ## Description
 
-A WordPress plugin providing [KaTeX](https://katex.org) support and loads content faster in mainland China.
+A WordPress plugin providing [KaTeX](https://katex.org) support and loads content faster in the mainland of China.
 
 ## Copyright
 
