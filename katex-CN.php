@@ -30,7 +30,7 @@
 define('KATEX__PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('KATEX__PLUGIN_URL', plugin_dir_url(__FILE__));
 
-define('KATEX__OPTION_DEFAULT_USE_JSDELIVR', false);
+define('KATEX__OPTION_DEFAULT_USE_BOOTCDN', false);
 define('KATEX__OPTION_DEFAULT_ENABLE_LATEX_SHORTCODE', true);
 
 
