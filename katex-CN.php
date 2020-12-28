@@ -1,8 +1,8 @@
 <?php
 /*
  * Plugin Name: KaTeX-CN
- * Plugin URI: 
- * Description: 针对中国大陆优化的高速KaTex数学公式插件
+ * Plugin URI: https://github.com/itdevwu/KaTex-CN
+ * Description: 针对中国大陆优化的高速KaTeX数学公式插件
  * Version: 0.0.1
  * Author: itdevwu
  * Author URI: https://www.itdevwu.com
