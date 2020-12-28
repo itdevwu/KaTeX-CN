@@ -1,7 +1,5 @@
 # KaTeX-CN
 
-## Description
-
 针对中国大陆优化的高速KaTex数学公式插件
 
 A WordPress plugin providing [KaTeX](https://katex.org) support and loads content faster in the mainland of China.
