@@ -2,11 +2,12 @@
 /*
  * Plugin Name: KaTeX-CN
  * Plugin URI: https://github.com/itdevwu/KaTex-CN
- * Description: 针对中国大陆优化的高速KaTeX数学公式插件
+ * Description: 针对中国大陆优化并提供中文设置的高速 KaTeX 数学公式插件
  * Version: 0.0.1
  * Author: itdevwu
  * Author URI: https://www.itdevwu.com
- * License: GPLv3 or later
+ * License: GPL v3 or later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
 /* Copyright (C)  2020  Zhenglong Wu
  * Copyright (C)  2020  itdevwu

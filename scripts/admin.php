@@ -23,7 +23,7 @@ add_action('admin_init', 'katex_settings_init');
 
 
 function katex_add_admin_menu() {
-    add_options_page('KaTeX', 'KaTeX', 'manage_options', 'katex', 'katex_options_page');
+    add_options_page('KaTeX-CN', 'KaTeX-CN', 'manage_options', 'katex-cn', 'katex_options_page');
 }
 
 
@@ -40,14 +40,14 @@ function katex_settings_init() {
 
     add_settings_section(
         'katex_pluginPage_section',
-        __('主页', 'katex'),
+        __('主页', 'katex-cn'),
         'katex_settings_section_callback',
         'pluginPage'
     );
 
     add_settings_field(
         'katex_bootcdn_setting',
-        __('使用BootCDN加载', 'katex'),
+        __('使用BootCDN加载', 'katex-cn'),
         'katex_bootcdn_setting_render',
           'pluginPage',
           'katex_pluginPage_section'
@@ -55,7 +55,7 @@ function katex_settings_init() {
 
     add_settings_field(
         'katex_latex_shortcode_setting',
-        __('启用[latex]代码', 'katex'),
+        __('启用[latex]代码', 'katex-cn'),
         'katex_latex_shortcode_setting_render',
         'pluginPage',
         'katex_pluginPage_section'
@@ -72,7 +72,7 @@ function katex_bootcdn_setting_render() {
         <?php checked($option_katex_use_bootcdn, 1); ?>
         value='1'>
     <?php
-    echo __('使用<a href="https://www.bootcdn.cn/" target="_blank">BootCDN</a>以更快加载Katex', 'katex');
+    echo __('使用<a href="https://www.bootcdn.cn/" target="_blank">BootCDN</a>以更快加载Katex', 'katex-cn');
 }
 
 
@@ -85,13 +85,13 @@ function katex_latex_shortcode_setting_render() {
         <?php checked($option_katex_enable_latex_shortcode, 1); ?>
         value='1'>
     <?php
-    echo __('为了保证与其他插件的兼容性，您可以使用[katex]代码的同时使用[latex]代码', 'katex');
+    echo __('为了保证与其他插件的兼容性，您可以使用[katex]代码的同时使用[latex]代码', 'katex-cn');
 
 }
 
 
 function katex_settings_section_callback() {
-     echo __('', 'katex');
+     echo __('', 'katex-cn');
 }
 
 
