@@ -32,26 +32,26 @@ function katex_resources_init() {
 
     if ($option_use_bootcdn) {
         wp_register_script(
-            'katex',
+            'katex-cn',
             '//cdn.bootcdn.net/ajax/libs/KaTeX/' . KATEX_JS_VERSION . '/katex.min.js',
             array(), // No dependencies.
             false, // No versioning.
             true // In footer.
         );
         wp_register_style(
-            'katex',
+            'katex-cn',
             '//cdn.bootcdn.net/ajax/libs/KaTeX/' . KATEX_JS_VERSION . '/katex.min.css'
         );
     } else {
         wp_register_script(
-            'katex',
+            'katex-cn',
             KATEX__PLUGIN_URL . 'assets/katex-' . KATEX_JS_VERSION . '/katex.min.js',
             array(), // No dependencies.
             false, // No versioning.
             true // In footer.
         );
         wp_register_style(
-            'katex',
+            'katex-cn',
             KATEX__PLUGIN_URL . 'assets/katex-' . KATEX_JS_VERSION . '/katex.min.css'
         );
     }
@@ -64,8 +64,8 @@ function katex_resources_enqueue() {
     global $katex_resources_required;
 
     if ($katex_resources_required) {
-        wp_enqueue_script('katex');
-        wp_enqueue_style('katex');
+        wp_enqueue_script('katex-cn');
+        wp_enqueue_style('katex-cn');
     }
 }
 
