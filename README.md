@@ -1,8 +1,34 @@
 # KaTeX-CN
 
-针对中国大陆优化并提供中文设置的高速 [KaTeX](https://katex.org) 数学公式插件。使用了在中国大陆地区加速访问的CDN网络并增加了中文设置的支持。
+针对中国大陆优化并提供中文设置的高速 [KaTeX](https://katex.org) 数学公式插件。使用了在中国大陆地区加速访问的CDN网络并增加了中文设置的支持并支持 LaTeX 公式。
 
 A WordPress plugin providing [KaTeX](https://katex.org) support and loads content faster in the mainland of China, using a faster CDN network in China, providing native Chinese support.
+
+***
+
+## 简单用法
+
+```
+[latex] some latex formula here [/latex]
+```
+
+***
+
+## Frequently Asked Questions
+
+### 你使用什么CDN？
+
+[BootCDN](https://www.bootcdn.cn/)
+
+***
+
+## Changelog
+
+### 0.0.1
+* 添加中文支持
+* 添加BootCDN支持
+
+***
 
 ## Copyright
 

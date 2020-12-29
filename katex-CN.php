@@ -2,7 +2,7 @@
 /*
  * Plugin Name: KaTeX-CN
  * Plugin URI: https://github.com/itdevwu/KaTex-CN
- * Description: 针对中国大陆优化并提供中文设置的高速 KaTeX 数学公式插件
+ * Description: 针对中国大陆优化并提供中文设置的高速 KaTeX 数学公式插件并支持 LaTeX 公式
  * Version: 0.0.1
  * Author: itdevwu
  * Author URI: https://www.itdevwu.com
