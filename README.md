@@ -1,15 +1,18 @@
 # KaTeX-CN
 
-针对中国大陆优化的高速KaTex数学公式插件
+针对中国大陆优化并提供中文设置的高速 [KaTeX](https://katex.org) 数学公式插件。使用了在中国大陆地区加速访问的CDN网络并增加了中文设置的支持。
 
-A WordPress plugin providing [KaTeX](https://katex.org) support and loads content faster in the mainland of China.
+A WordPress plugin providing [KaTeX](https://katex.org) support and loads content faster in the mainland of China, using a faster CDN network in China, providing native Chinese support.
 
 ## Copyright
 
-KaTeX-CN is developed based on [Thomas Churchman](https://churchman.nl)'s project "[KaTeX](https://wordpress.org/plugins/katex)" licensed under [GPLv2](https://opensource.org/licenses/GPL-2.0).
-I am very grateful for his opensource licensing.
+**KaTeX-CN** 是基于 [Thomas Churchman](https://churchman.nl) 的“[KaTeX](https://wordpress.org/plugins/katex)”项目开发，原项目采用 [GPLv2](https://opensource.org/licenses/GPL-2.0) 开源。
 
-KaTeX-CN is licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0), a later version of GPLv2.
+**KaTeX-CN** 采用 [GPLv2](https://opensource.org/licenses/GPL-2.0) 的更新版本 [GPLv3](https://opensource.org/licenses/GPL-3.0) 进行开源授权。我很感谢他的开源授权。
+
+**KaTeX-CN** is developed based on [Thomas Churchman](https://churchman.nl)'s project "[KaTeX](https://wordpress.org/plugins/katex)" licensed under [GPLv2](https://opensource.org/licenses/GPL-2.0). I am very grateful for his opensource licensing.
+
+**KaTeX-CN** is licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0), a later version of [GPLv2](https://opensource.org/licenses/GPL-2.0).
 
 ```
 Copyright (C)  2020  Zhenglong Wu
