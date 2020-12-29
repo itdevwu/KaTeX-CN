@@ -32,7 +32,7 @@
   };
 
   registerBlockType("katex/display-block", {
-    title: "KaTeX",
+    title: "KaTeX-CN",
     icon: createElement("span", {}, "Ka"),
     category: "formatting",
     keywords: [__("katex"), __("latex"), __("math")],
