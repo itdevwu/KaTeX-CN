@@ -1,6 +1,6 @@
 <?php
-/* Copyright (C)  2020  Zhenglong Wu
- * Copyright (C)  2020  itdevwu
+/* Copyright (C)  2020-2021  Zhenglong Wu
+ * Copyright (C)  2020-2021  itdevwu
  * 
  * This file is part of KaTeX-CN.
  * 
@@ -19,6 +19,7 @@
  */
 
 define('KATEX_JS_VERSION', '0.12.0');
+define('KATEX_REMOTE_JS_VERSION', '0.13.2');
 
 
 add_action('init', 'katex_resources_init');
@@ -28,19 +29,19 @@ add_action('wp_footer', 'katex_enable');
 
 
 function katex_resources_init() {
-    $option_use_bootcdn = get_option('katex_use_bootcdn', KATEX__OPTION_DEFAULT_USE_BOOTCDN);
+    $option_use_cdn = get_option('katex_use_cdn', KATEX__OPTION_DEFAULT_USE_CDN);
 
-    if ($option_use_bootcdn) {
+    if ($option_use_cdn) {
         wp_register_script(
             'katex-cn',
-            '//cdn.bootcdn.net/ajax/libs/KaTeX/' . KATEX_JS_VERSION . '/katex.min.js',
+            '//cdn.staticfile.org/KaTeX/' . KATEX_REMOTE_JS_VERSION . '/katex.min.js',
             array(), // No dependencies.
             false, // No versioning.
             true // In footer.
         );
         wp_register_style(
             'katex-cn',
-            '//cdn.bootcdn.net/ajax/libs/KaTeX/' . KATEX_JS_VERSION . '/katex.min.css'
+            '//cdn.staticfile.org/KaTeX/' . KATEX_REMOTE_JS_VERSION . '/katex.min.css'
         );
     } else {
         wp_register_script(

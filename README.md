@@ -18,13 +18,13 @@ A WordPress plugin providing [KaTeX](https://katex.org) support and loads conten
 
 ### 你使用什么CDN？
 
-[BootCDN](https://www.bootcdn.cn/)
+[Staticfile CDN](https://staticfile.org/)
 
 ***
 
 ## Changelog
 
-### 0.0.1
+### 0.1.0
 * 添加中文支持
 * 添加BootCDN支持
 
@@ -41,8 +41,8 @@ A WordPress plugin providing [KaTeX](https://katex.org) support and loads conten
 **KaTeX-CN** is licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0), a later version of [GPLv2](https://opensource.org/licenses/GPL-2.0).
 
 ```
-Copyright (C)  2020  Zhenglong Wu
-Copyright (C)  2020  itdevwu
+Copyright (C)  2020-2021  Zhenglong Wu
+Copyright (C)  2020-2021  itdevwu
 
 This file is part of KaTeX-CN.
 
