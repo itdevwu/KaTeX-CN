@@ -8,8 +8,11 @@ A WordPress plugin providing [KaTeX](https://katex.org) support and loads conten
 
 ## 简单用法
 
+点此[下载](https://github.com/itdevwu/KaTeX-CN/archive/refs/tags/0.1.0.zip)该插件的稳定版本。
+
 ```
 [latex] some latex formula here [/latex]
+[katex] some katex formula here [/katex]
 ```
 
 ***
