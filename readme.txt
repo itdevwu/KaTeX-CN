@@ -19,16 +19,18 @@ A WordPress plugin providing [KaTeX](https://katex.org) support and loads conten
 
 = 你使用什么CDN？ =
 
-[BootCDN](https://www.bootcdn.cn/)
+[Staticfile CDN](https://staticfile.org/)
 
 == Changelog ==
 
-= 0.0.1 =
+= 0.1.0 =
 * 添加中文支持
-* 添加BootCDN支持
+* 添加Staticfile CDN支持
 
 == A brief Example ==
 
 ```
 [latex] some latex formula here [/latex]
+
+[katex] some katex formula here [/katex]
 ```

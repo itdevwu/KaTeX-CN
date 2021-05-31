@@ -1,5 +1,5 @@
-/* Copyright (C)  2020  Zhenglong Wu
- * Copyright (C)  2020  itdevwu
+/* Copyright (C)  2020-2021  Zhenglong Wu
+ * Copyright (C)  2020-2021  itdevwu
  *
  * This file is part of KaTeX-CN.
  *

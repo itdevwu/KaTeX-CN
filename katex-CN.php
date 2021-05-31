@@ -3,14 +3,14 @@
  * Plugin Name: KaTeX-CN
  * Plugin URI: https://github.com/itdevwu/KaTex-CN
  * Description: 针对中国大陆优化并提供中文设置的高速 KaTeX 数学公式插件并支持 LaTeX 公式
- * Version: 0.0.1
+ * Version: 0.1.0
  * Author: itdevwu
  * Author URI: https://www.itdevwu.com
  * License: GPL v3 or later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
-/* Copyright (C)  2020  Zhenglong Wu
- * Copyright (C)  2020  itdevwu
+/* Copyright (C)  2020-2021  Zhenglong Wu
+ * Copyright (C)  2020-2021  itdevwu
  * 
  * This file is part of KaTeX-CN.
  * 
@@ -31,7 +31,7 @@
 define('KATEX__PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('KATEX__PLUGIN_URL', plugin_dir_url(__FILE__));
 
-define('KATEX__OPTION_DEFAULT_USE_BOOTCDN', true);
+define('KATEX__OPTION_DEFAULT_USE_CDN', true);
 define('KATEX__OPTION_DEFAULT_ENABLE_LATEX_SHORTCODE', true);
 
 

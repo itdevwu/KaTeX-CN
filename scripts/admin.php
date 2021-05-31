@@ -1,6 +1,6 @@
 <?php
-/* Copyright (C)  2020  Zhenglong Wu
- * Copyright (C)  2020  itdevwu
+/* Copyright (C)  2020-2021  Zhenglong Wu
+ * Copyright (C)  2020-2021  itdevwu
  * 
  * This file is part of KaTeX-CN.
  * 
@@ -26,11 +26,10 @@ function katex_add_admin_menu() {
     add_options_page('KaTeX-CN', 'KaTeX-CN', 'manage_options', 'katex-cn', 'katex_options_page');
 }
 
-
 function katex_settings_init() {
     register_setting(
         'pluginPage',
-        'katex_use_bootcdn'
+        'katex_use_cdn'
     );
 
     register_setting(
@@ -40,15 +39,15 @@ function katex_settings_init() {
 
     add_settings_section(
         'katex_pluginPage_section',
-        __('主页', 'katex-cn'),
+        __('设置主页', 'katex-cn'),
         'katex_settings_section_callback',
         'pluginPage'
     );
 
     add_settings_field(
-        'katex_bootcdn_setting',
-        __('使用BootCDN加载', 'katex-cn'),
-        'katex_bootcdn_setting_render',
+        'katex_cdn_setting',
+        __('使用CDN加载', 'katex-cn'),
+        'katex_cdn_setting_render',
           'pluginPage',
           'katex_pluginPage_section'
      );
@@ -63,16 +62,16 @@ function katex_settings_init() {
 }
 
 
-function katex_bootcdn_setting_render() {
-    $option_katex_use_bootcdn = get_option('katex_use_bootcdn', KATEX__OPTION_DEFAULT_USE_BOOTCDN);
+function katex_cdn_setting_render() {
+    $option_katex_use_cdn = get_option('katex_use_cdn', KATEX__OPTION_DEFAULT_USE_CDN);
     ?>
     <input
         type='checkbox'
-        name='katex_use_bootcdn'
-        <?php checked($option_katex_use_bootcdn, 1); ?>
+        name='katex_use_cdn'
+        <?php checked($option_katex_use_cdn, 1); ?>
         value='1'>
     <?php
-    echo __('使用<a href="https://www.bootcdn.cn/" target="_blank">BootCDN</a>以更快加载Katex', 'katex-cn');
+    echo __('使用<a href="https://staticfile.org/" target="_blank">Staticfile CDN</a>以更快加载KaTex', 'katex-cn'); 
 }
 
 
@@ -106,6 +105,8 @@ function katex_options_page() {
             submit_button();
             ?>
         </form>
+        <p><a href="https://github.com/itdevwu/KaTeX-CN" target="_blank">KaTeX-CN</a> 由 <a href="https://www.itdevwu.com/" target="_blank">itdevwu</a> 开发.</p>
+        <p>如果您喜欢这个插件，欢迎到 <a href="https://github.com/itdevwu/KaTeX-CN" target="_blank">itdevwu/KaTeX-CN</a> 的GitHub给我加star、提issue.</p>
     </div>
     <?php
 }
