@@ -1,5 +1,9 @@
 # KaTeX-CN
 
+![KaTeX Version](https://img.shields.io/badge/KaTeX-v0.13.2-blue)
+![GitHub release (latest by SemVer)](https://img.shields.io/github/downloads/itdevwu/KaTeX-CN/latest/total?sort=semver)
+![Liberapay patrons](https://img.shields.io/liberapay/patrons/itdevwu)
+
 针对中国大陆优化并提供中文设置的高速 [KaTeX](https://katex.org) 数学公式插件。使用了在中国大陆地区加速访问的CDN网络并增加了中文设置的支持并支持 LaTeX 公式。
 
 A WordPress plugin providing [KaTeX](https://katex.org) support and loads content faster in the mainland of China, using a faster CDN network in China, providing native Chinese support.
@@ -8,7 +12,7 @@ A WordPress plugin providing [KaTeX](https://katex.org) support and loads conten
 
 ## 简单用法
 
-点此[下载](https://github.com/itdevwu/KaTeX-CN/archive/refs/tags/0.1.0.zip)该插件的稳定版本。
+点此[下载](https://github.com/itdevwu/KaTeX-CN/releases/tag/0.1.0)该插件的稳定版本。
 
 ```
 [latex] some latex formula here [/latex]
