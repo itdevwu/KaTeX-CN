@@ -1,9 +1,9 @@
-=== KaTeX-CN ===
+=== Speedy LaTeX for China ===
 Contributors: itdevwu
 Donate link: 
 Tags: math, latex, katex, formula, equation
 Requires at least: 4.7
-Tested up to: 5.6
+Tested up to: 5.7
 Requires PHP: 7.0
 Stable tag: trunk
 License: GPLv3 or later
