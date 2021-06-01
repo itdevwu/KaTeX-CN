@@ -23,7 +23,7 @@ add_action('admin_init', 'katex_settings_init');
 
 
 function katex_add_admin_menu() {
-    add_options_page('KaTeX-CN', 'KaTeX-CN', 'manage_options', 'katex-cn', 'katex_options_page');
+    add_options_page('Speedy LaTeX for China', 'Speedy LaTeX', 'manage_options', 'katex-cn', 'katex_options_page');
 }
 
 function katex_settings_init() {
@@ -71,7 +71,7 @@ function katex_cdn_setting_render() {
         <?php checked($option_katex_use_cdn, 1); ?>
         value='1'>
     <?php
-    echo __('使用<a href="https://staticfile.org/" target="_blank">Staticfile CDN</a>以更快加载KaTex', 'katex-cn'); 
+    echo __('使用<a href="https://staticfile.org/" target="_blank">Staticfile CDN</a>以更快加载KaTeX', 'katex-cn'); 
 }
 
 
@@ -97,7 +97,8 @@ function katex_settings_section_callback() {
 function katex_options_page() {
      ?>
     <div class="wrap">
-        <h1>KaTeX-CN</h1>
+        <h1>Speedy LaTeX for China</h1>
+        
         <form action="options.php" method="post">
             <?php
             settings_fields( 'pluginPage' );
@@ -105,8 +106,8 @@ function katex_options_page() {
             submit_button();
             ?>
         </form>
-        <p><a href="https://github.com/itdevwu/KaTeX-CN" target="_blank">KaTeX-CN</a> 由 <a href="https://www.itdevwu.com/" target="_blank">itdevwu</a> 开发.</p>
-        <p>如果您喜欢这个插件，欢迎到 <a href="https://github.com/itdevwu/KaTeX-CN" target="_blank">itdevwu/KaTeX-CN</a> 的GitHub给我加star、提issue.</p>
+        <p><a href="https://github.com/itdevwu/KaTeX-CN" target="_blank">本插件</a> 由 <a href="https://www.itdevwu.com/" target="_blank">itdevwu</a> 开发.</p>
+        <p>如果您喜欢这个插件，欢迎到 <a href="https://github.com/itdevwu/KaTeX-CN" target="_blank">GitHub</a> 给我加star、提issue.</p>
     </div>
     <?php
 }

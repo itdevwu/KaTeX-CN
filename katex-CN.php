@@ -1,9 +1,9 @@
 <?php
 /*
- * Plugin Name: KaTeX-CN
- * Plugin URI: https://github.com/itdevwu/KaTex-CN
- * Description: 针对中国大陆优化并提供中文设置的高速 KaTeX 数学公式插件并支持 LaTeX 公式
- * Version: 0.1.0
+ * Plugin Name: Speedy LaTeX for China
+ * Plugin URI: https://github.com/itdevwu/KaTeX-CN
+ * Description: 针对中国大陆CDN优化并提供中文设置的高速支持 KaTeX 与 LaTeX 数学公式插件
+ * Version: 0.1.1
  * Author: itdevwu
  * Author URI: https://www.itdevwu.com
  * License: GPL v3 or later

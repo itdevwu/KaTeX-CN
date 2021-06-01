@@ -1,4 +1,6 @@
-# KaTeX-CN
+# Speedy LaTeX for China
+
+*This plugin was called KaTeX-CN and now published with a new name to avoid legal issue.*
 
 ![KaTeX Version](https://img.shields.io/badge/KaTeX-v0.13.2-blue)
 ![GitHub release (latest by SemVer)](https://img.shields.io/github/downloads/itdevwu/KaTeX-CN/latest/total?sort=semver)

@@ -18,6 +18,7 @@
  * along with KaTeX-CN. If not, see <http://www.gnu.org/licenses/>.
  */
 
+// Local version of KaTeX has been locked in a lower version in case of errors
 define('KATEX_JS_VERSION', '0.12.0');
 define('KATEX_REMOTE_JS_VERSION', '0.13.2');
 
