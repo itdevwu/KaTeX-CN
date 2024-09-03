@@ -23,7 +23,7 @@ A WordPress plugin providing [KaTeX](https://katex.org) support and loads conten
 
 ### Which CDN provider is used?
 
-[Staticfile CDN](https://staticfile.org/)
+* [ByteDance CDN](https://cdn.bytedance.com)
 
 ## Changelog
 
@@ -37,6 +37,12 @@ A WordPress plugin providing [KaTeX](https://katex.org) support and loads conten
 
 * Add Staticfile CDN support
 * Remove BootCDN support
+
+### 0.2.0
+
+* Add shortcode `[tex]`
+* Remove Staticfile CDN due to possible supply chain attacks
+* Add ByteDance CDN support
 
 ## Copyright
 

@@ -23,7 +23,7 @@
 
 ### 使用了哪个 CDN 服务商？
 
-[Staticfile CDN](https://staticfile.org/)
+* [ByteDance CDN](https://cdn.bytedance.com)
 
 ## 更新日志
 
@@ -37,6 +37,12 @@
 
 * 增加 Staticfile CDN 支持
 * 移除 BootCDN 支持
+
+### 0.2.0
+
+* 增加短代码 `[tex]`
+* 移除 Staticfile CDN 以避免可能存在的供应链攻击
+* 增加 ByteDance CDN 支持
 
 ## 版权
 
