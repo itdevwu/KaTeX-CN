@@ -1,6 +1,5 @@
 <?php
-/* Copyright (C)  2020-2021  Zhenglong Wu
- * Copyright (C)  2020-2021  itdevwu
+/* Copyright (C)  2020-2024 itdevwu
  * 
  * This file is part of KaTeX-CN.
  * 
@@ -57,5 +56,6 @@ function katex_display_inline_render($attributes, $content = null) {
 function katex_shortcode_exempt_from_wptexturize($shortcodes) {
     $shortcodes[] = 'katex';
     $shortcodes[] = 'latex';
+    $shortcodes[] = 'tex';
     return $shortcodes;
 }
