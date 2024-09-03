@@ -19,7 +19,7 @@
 
 // Local version of KaTeX has been locked in a lower version in case of errors
 define('KATEX_JS_VERSION', '0.16.11');
-define('KATEX_REMOTE_JS_VERSION', '0.16.11');
+define('KATEX_REMOTE_JS_VERSION', '0.15.2');
 
 
 add_action('init', 'katex_resources_init');
