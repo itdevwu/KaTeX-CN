@@ -53,6 +53,6 @@ if (!wp_doing_ajax()) {
 register_uninstall_hook(__FILE__, 'katex_uninstall');
 
 function katex_uninstall() {
-    delete_option('katex_use_bootcdn');
+    delete_option('katex_use_cdn');
     delete_option('katex_enable_latex_shortcode');
 }
