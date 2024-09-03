@@ -34,14 +34,14 @@ function katex_resources_init() {
     if ($option_use_cdn) {
         wp_register_script(
             'katex-cn',
-            '//cdn.staticfile.org/KaTeX/' . KATEX_REMOTE_JS_VERSION . '/katex.min.js',
+            '//lf3-cdn-tos.bytecdntp.com/cdn/expire-1000-y/KaTeX/' . KATEX_REMOTE_JS_VERSION . '/katex.min.js',
             array(), // No dependencies.
             false, // No versioning.
             true // In footer.
         );
         wp_register_style(
             'katex-cn',
-            '//cdn.staticfile.org/KaTeX/' . KATEX_REMOTE_JS_VERSION . '/katex.min.css'
+            '//lf3-cdn-tos.bytecdntp.com/cdn/expire-1000-y/KaTeX/' . KATEX_REMOTE_JS_VERSION . '/katex.min.css'
         );
     } else {
         wp_register_script(
