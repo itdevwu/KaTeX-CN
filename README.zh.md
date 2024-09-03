@@ -2,7 +2,7 @@
 
 <div align="center">
 
-English | [中文](README.zh.md)
+[English](README.md) | 中文
 
 ![KaTeX Version](https://img.shields.io/badge/KaTeX-v0.13.2-blue)
 ![GitHub release (latest by SemVer)](https://img.shields.io/github/downloads/itdevwu/KaTeX-CN/latest/total?sort=semver)
@@ -10,41 +10,39 @@ English | [中文](README.zh.md)
 
 </div>
 
-A WordPress plugin providing [KaTeX](https://katex.org) support and loads content faster in the mainland of China, using a faster CDN network in China, providing native Chinese support.
+针对中国大陆优化并提供中文设置的高速 [KaTeX](https://katex.org) 数学公式插件。使用了在中国大陆地区加速访问的CDN网络并增加了中文设置的支持并支持 LaTeX 公式。
 
-## Usage
+## 使用方法
 
 ```text
-[latex] some latex formula here [/latex]
-[katex] some katex formula here [/katex]
+[latex] 这里输入LaTeX公式 [/latex]
+[katex] 这里输入KaTeX公式 [/katex]
 ```
 
-## Frequently Asked Questions
+## 常见问题
 
-### Which CDN provider is used?
+### 使用了哪个 CDN 服务商？
 
 [Staticfile CDN](https://staticfile.org/)
 
-## Changelog
+## 更新日志
 
 ### 0.1.0
 
-* Initial release
-* Add Chinese support
-* Add BootCDN support
+* 初始版本
+* 增加中文支持
+* 增加 BootCDN 支持
 
 ### 0.1.1
 
-* Add Staticfile CDN support
-* Remove BootCDN support
+* 增加 Staticfile CDN 支持
+* 移除 BootCDN 支持
 
-## Copyright
+## 版权
 
+**KaTeX-CN** 是基于 [Thomas Churchman](https://churchman.nl) 的“[KaTeX](https://wordpress.org/plugins/katex)”项目开发，原项目采用 [GPLv2](https://opensource.org/licenses/GPL-2.0) 开源。
 
-
-**KaTeX-CN** is developed based on [Thomas Churchman](https://churchman.nl)'s project "[KaTeX](https://wordpress.org/plugins/katex)" licensed under [GPLv2](https://opensource.org/licenses/GPL-2.0).
-
-**KaTeX-CN** is licensed under [GPLv3](https://opensource.org/licenses/GPL-3.0), a later version of [GPLv2](https://opensource.org/licenses/GPL-2.0).
+**KaTeX-CN** 采用 [GPLv2](https://opensource.org/licenses/GPL-2.0) 的更新版本 [GPLv3](https://opensource.org/licenses/GPL-3.0) 进行开源授权。
 
 ```text
 Copyright (C)  2020-2024  itdevwu
