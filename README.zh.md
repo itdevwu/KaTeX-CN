@@ -1,4 +1,4 @@
-# Speedy WP KaTeX for China
+# Speedy KaTeX for China
 
 <div align="center">
 
