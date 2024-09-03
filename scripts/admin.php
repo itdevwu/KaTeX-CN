@@ -71,7 +71,7 @@ function katex_cdn_setting_render() {
         <?php checked($option_katex_use_cdn, 1); ?>
         value='1'>
     <?php
-    echo __('使用<a href="https://staticfile.org/" target="_blank">Staticfile CDN</a>以更快加载KaTeX', 'katex-cn'); 
+    echo __('使用<a href="https://cdn.bytedance.com/" target="_blank">ByteDance CDN</a>以更快加载KaTeX', 'katex-cn'); 
 }
 
 
