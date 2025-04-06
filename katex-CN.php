@@ -9,8 +9,7 @@
  * License: GPL v3 or later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
-/* Copyright (C)  2020-2021  Zhenglong Wu
- * Copyright (C)  2020-2021  itdevwu
+/* Copyright (C)  2020-2025  itdevwu
  * 
  * This file is part of KaTeX-CN.
  * 
